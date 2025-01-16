@@ -1,10 +1,11 @@
 import os
+import getpass
 
 
 def export_from_sql():
     host = input("MySQL host (default: localhost): ") or "localhost"
     user = input("username: ")
-    password = input("password: ")
+    password = getpass.getpass("password: ")
     database = input("Database name: ")
     output_file = input("Output file name: ")
 

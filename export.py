@@ -33,7 +33,7 @@ def export_from_sql(option):
         print("Invalid Option.")
 
 
-def menu():
+def export_menu():
     print("Choose an Export option:")
     print("1. Export table creation statments only")
     print("2. Export data insertion statments only")
@@ -46,4 +46,4 @@ def menu():
         print("Invalid Option!")
 
 
-menu()
+export_menu()

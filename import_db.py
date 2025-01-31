@@ -37,6 +37,3 @@ def import_menu():
         import_sql(choice)
     except ValueError:
         print("Invalid Option!")
-
-
-import_menu()

@@ -44,6 +44,3 @@ def export_menu():
         export_from_sql(choice)
     except ValueError:
         print("Invalid Option!")
-
-
-export_menu()

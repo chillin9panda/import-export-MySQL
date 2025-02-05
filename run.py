@@ -1,5 +1,5 @@
-import import_db as idb
-import export_db as edb
+from src import import_db as idb
+from src import export_db as edb
 
 
 def run():
